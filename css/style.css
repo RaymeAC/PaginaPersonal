@@ -1,0 +1,30 @@
+
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.gradient-box {
+  
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+
+  }
+
+  ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding: 0.5rem;
+    background-image: url(star.svg);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+    list-style-type: none;
+    color:azure;
+    text-align: left;
+  }
+  p{
+    color:white
+  }
